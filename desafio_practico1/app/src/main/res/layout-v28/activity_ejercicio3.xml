@@ -31,7 +31,7 @@
                         android:text="@string/cardview1"
                         android:textFontWeight="900"
                         android:id="@+id/title1"
-                        android:textSize="24dp"/>
+                        android:textSize="24sp"/>
                     <EditText
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                         android:text="@string/cardview2"
                         android:textFontWeight="900"
                         android:id="@+id/title2"
-                        android:textSize="24dp"/>
+                        android:textSize="24sp"/>
                     <EditText
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/cardview3"
                         android:textFontWeight="900"
-                        android:textSize="24dp"
+                        android:textSize="24sp"
                         android:id="@+id/title3"/>
                     <EditText
                         android:layout_width="300dp"
@@ -186,11 +186,11 @@
                 <Button
                     android:layout_width="150dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
                     android:layout_gravity="center"
                     android:textFontWeight="900"
                     android:text="Calcular"
-                    android:textSize="16dp"
+                    android:onClick="calcular"
+                    android:textSize="16sp"
                     android:layout_marginEnd="10dp" />
                 <Button
                     android:layout_width="150dp"
@@ -198,7 +198,7 @@
                     android:layout_gravity="center"
                     android:textFontWeight="900"
                     android:text="Regresar"
-                    android:textSize="16dp"/>
+                    android:textSize="16sp"/>
             </LinearLayout>
 
         </LinearLayout>

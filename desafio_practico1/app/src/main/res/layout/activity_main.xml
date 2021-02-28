@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ejercicio1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/ej1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ejercicio2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="ejercicio2"
+        android:text="@string/ej2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ejercicio3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/ej3"
+        android:onClick="ejercicio3"/>
+</LinearLayout>
