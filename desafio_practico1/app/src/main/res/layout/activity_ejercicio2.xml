@@ -16,26 +16,13 @@
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:text="Calculadora de ecuaciones cuadráticas"
-        android:textColor="#113BBC"
+        android:textColor="#FF5722"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageEcuacion"
-        android:layout_width="361dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInstrucciones"
-        app:srcCompat="@drawable/descarga" />
 
     <EditText
         android:id="@+id/editTextA"
@@ -65,7 +52,7 @@
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextB"
-        app:layout_constraintTop_toBottomOf="@+id/imageEcuacion" />
+        app:layout_constraintTop_toBottomOf="@+id/textInstrucciones" />
 
     <TextView
         android:id="@+id/textInstrucciones"
@@ -95,7 +82,7 @@
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/editTextC"
         app:layout_constraintStart_toEndOf="@+id/editTextA"
-        app:layout_constraintTop_toBottomOf="@+id/imageEcuacion" />
+        app:layout_constraintTop_toBottomOf="@+id/textInstrucciones" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -108,7 +95,7 @@
         android:layout_marginRight="66dp"
         android:text="Calcular"
         android:textSize="18sp"
-        app:backgroundTint="#113BBC"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,8 +128,8 @@
         android:layout_marginRight="65dp"
         android:layout_marginBottom="229dp"
         android:gravity="center"
-        android:text="X = "
-        android:textColor="#000000"
+        android:text="X2 = "
+        android:textColor="#FFF"
         android:textSize="24sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -160,9 +147,10 @@
         android:layout_marginEnd="42dp"
         android:layout_marginRight="42dp"
         android:layout_marginBottom="229dp"
+        android:fontFamily="Roboto"
         android:gravity="center"
-        android:text="X = "
-        android:textColor="#000000"
+        android:text="X1 = "
+        android:textColor="#FFF"
         android:textSize="24sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
