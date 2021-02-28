@@ -17,7 +17,7 @@
         android:layout_marginRight="102dp"
         android:gravity="center_horizontal"
         android:text="Calculadora de votos"
-        android:textColor="#203FB3"
+        android:textColor="#FF5722"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
