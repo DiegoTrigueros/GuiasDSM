@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity"
+    android:padding="48dp">
+
+    <TextView
+        android:id="@+id/texto_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/input_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="Correo"
+        android:layout_below="@id/texto_conectar"/>
+
+    <EditText
+        android:id="@+id/input_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:layout_below="@id/input_usuario"/>
+
+    <Button
+        android:id="@+id/boton_iniciar_sesion"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_contrasena"
+        android:layout_marginBottom="30dp"
+        android:text="Iniciar Sesion" />
+
+    <TextView
+        android:id="@+id/texto_olvidaste_contrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton_iniciar_sesion"
+        android:layout_centerHorizontal="true"
+        android:text="¿Olvidaste tu constraseña?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0E8AEE" />
+</RelativeLayout>
