@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "425418395260",
+    "firebase_url": "https://appcrud-7ac54-default-rtdb.firebaseio.com",
+    "project_id": "appcrud-7ac54",
+    "storage_bucket": "appcrud-7ac54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425418395260:android:2683595727be8a3c4843f9",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.crud_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425418395260-ls6ujvov4t25gm99nrt2u0fou93fq6fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1tDqonHQuH9a7oAM8UTE3BekvJLKRGu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425418395260-ls6ujvov4t25gm99nrt2u0fou93fq6fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
